@@ -201,10 +201,12 @@ width: 696px;
     display: block;
     border-radius: 4px;
     min-width: 200px;
+    min-height: 50px;
     margin: 0 auto;
     padding: 10px 32px;
     color: var(--hero-text-color);
-    background-color: var(--accent-text-color)
+    background-color: var(--accent-text-color);
+    border-color: transparent;
 }
 
 .section-tittle {
@@ -257,6 +259,7 @@ color: var(--tittle-text-color)
 }
 
 .benefit-tittle {
+margin-top: 30px;
 color: var(--tittle-text-color);
 }
 
